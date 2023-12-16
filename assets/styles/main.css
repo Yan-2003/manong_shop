@@ -31,12 +31,58 @@
     gap: 20px;
 }
 
+.d-flex-no-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buy_info{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(216, 91, 33);
+}
+
+.buy_now{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 30px 50px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.buy_now:hover{
+    background-color: rgb(34, 34, 34);
+    transition: 280ms ease;
+}
+
+
+#learn_more{
+    text-align: justify;
+}
+
+
 .container{
     display: flex;
 }
 
 .w-80{
     width: 80%;
+    margin: 0 auto;
+}
+
+.w-50{
+    width: 50%;
     margin: 0 auto;
 }
 
